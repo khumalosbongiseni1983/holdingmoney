@@ -360,7 +360,7 @@ h3 {
           <li>
             <div class="radio">
               <input type="radio" name="checkbox" class="checkbox" value="2" v-model="selectChoose">
-              <label>Nationally qualified resistance</label><br>
+              <label>Resistance to holding money</label><br>
             </div>
           </li>
         </ul>
@@ -385,7 +385,7 @@ h3 {
       </div>
       <div class="main_2" v-else-if="main_1 == 2">
         <!-- <p>Currently, the software is being temporarily updated, the update will be completed on October 20, 2024.</p> -->
-        <h3>National eligibility requirements</h3>
+        <h3>Resistance to holding money</h3>
         <span class="desciption">Only check conditions after 24 hours of submitting a request</span>
         <div class="input">
           <label for="age1">Link page: </label>
@@ -421,7 +421,7 @@ import { ref, onMounted } from 'vue';
 const domain = ref('toolpts-ai.pro')
 // Create a ref
 const loading = ref(false)
-const design = ref(1)
+const design = ref(3)
 
 const main_1 = ref(1)
 
